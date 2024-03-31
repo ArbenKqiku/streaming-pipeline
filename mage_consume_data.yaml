@@ -1,0 +1,13 @@
+connector_type: kafka
+bootstrap_server: "pkc-lzoyy.ecabcabcabcabcabcbbcaca"
+topic: company_profile
+consumer_group: unique_consumer_group
+include_metadata: false
+api_version: 0.10.2
+
+# Uncomment the config below to use SASL_SSL config
+security_protocol: "SASL_SSL"
+sasl_config:
+    mechanism: "PLAIN"
+    username: GGPKTcabcabcabcabcabcbbcaca
+    password: /rmTFMqsvD4/CEsacbacabcabcabcabcabcabcabcbbcaca
