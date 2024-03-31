@@ -31,7 +31,7 @@ def transform(messages: List[Dict], *args, **kwargs):
 
     # define credentials
     credentials = service_account.Credentials.from_service_account_file(
-        '/home/src/kafka-streaming-418018-22f81afd78ce.json', scopes=['https://www.googleapis.com/auth/cloud-platform'],
+        '/home/src/streaming-pipeline-418713-7f7d915b1fc7.json', scopes=['https://www.googleapis.com/auth/cloud-platform'],
     )
 
     # define client
