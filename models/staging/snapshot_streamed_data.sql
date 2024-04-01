@@ -14,6 +14,6 @@ select
     stream.published_at
 from
     {{ source("staging", "company_house_stream") }} stream
-join 
+join
     {{ source("production", "get_last_timestamp") }} last_timestamp
     on stream.published_at > last_timestamp.published_at
