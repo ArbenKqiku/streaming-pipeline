@@ -7,9 +7,9 @@ sources:
     tables:
       - name: company_house_core
       - name: company_house_stream
-  - name: development
+  - name: production
     database: streaming-pipeline-418713 # BigQuery project id
-    schema: dbt_arbenkqiku # BigQuery data set
+    schema: prod # BigQuery data set
     tables:
       - name: company_house_core
       - name: get_last_timestamp
