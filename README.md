@@ -1,15 +1,5 @@
-Welcome to your new dbt project!
+Hello!
 
-### Using the starter project
+This my Zoomcamp project for the data engineering course. Instead of writing a readme file, I wrote an article that you can find here: https://arbenkqiku.github.io/create-end-to-end-kafka-streaming-pipeline
 
-Try running the following commands:
-- dbt run
-- dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+The dashboard that I created is here: https://lookerstudio.google.com/u/0/reporting/29293e59-6dac-4271-992d-b0e647551ed5/page/K78uD
