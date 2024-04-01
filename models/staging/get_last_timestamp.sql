@@ -7,7 +7,7 @@
 select
     published_at
 from
-    {{ source('development', 'snapshot_streamed_data')}}
+    {{ source('production', 'snapshot_streamed_data')}}
 order by
     published_at desc
 limit
