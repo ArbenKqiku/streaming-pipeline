@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: staging
+    database: streaming-pipeline-418713 # BigQuery project id
+    schema: company_house # BigQuery data set
+    tables:
+      - name: company_house_core
+      - name: company_house_stream
+  - name: development
+    database: streaming-pipeline-418713 # BigQuery project id
+    schema: dbt_arbenkqiku # BigQuery data set
+    tables:
+      - name: company_house_core
+      - name: get_last_timestamp
+      - name: snapshot_streamed_data
+  
